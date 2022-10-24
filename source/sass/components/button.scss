@@ -1,0 +1,60 @@
+.button {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    width: fit-content;
+    padding: 10px 25px;
+    color: $text-color;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+        opacity: 0.6;
+        transition: 0.3s ease-in-out;
+    }
+}
+
+.button + .button {
+    margin-top: 10px;
+
+    @media (min-width: $desktop-width) {
+        margin-left: 20px;
+        margin-top: 0;
+    }
+}
+
+.button-green {
+    color: $white-color;
+    background-color: $primary-color;
+}
+
+.button-green-send {
+    padding: 15px 54px;
+    border-radius: 35px;
+}
+
+.button-light {
+    color: #173A56;
+    border: 1px solid #BCD0E5;
+}
+
+.button-white {
+    color: $primary-color;
+    background-color: $white-color;
+}
+
+.button-theme {
+    width: 32px;
+    height: 32px;
+    background: no-repeat url(../img/button_theme.svg) center;
+    margin-bottom: 5px;
+
+    @media (min-width: $desktop-width) {
+        margin-bottom: 0;
+    }
+}

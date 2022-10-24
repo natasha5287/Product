@@ -1,0 +1,44 @@
+.header {
+    margin-bottom: 30px;
+    box-shadow:  0px -2px 8px rgba(0, 0, 0, 0.25);
+
+    @media (min-width: $desktop-width) {
+        box-shadow: none;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 26px;
+        padding: 50px 0;
+    }
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+
+    @media (min-width: $desktop-width) {
+        padding: 20px 0;
+    }
+}
+
+.header_toggler.button {
+    @media (min-width: $desktop-width) {
+        display: none;
+    }
+}
+
+.header_toggler-icon::before {
+    position: absolute;
+    content: "";
+    top: 25px;
+    right: 30px;
+    width: 23px;
+    height: 3px;
+    background-color: #173A56;
+    border-radius: 5px;
+    box-shadow: 0 8px 0 0 #231f20, 0 16px 0 0 #231f20;
+
+    @media (min-width: $desktop-width) {
+        display: none;
+    }
+}

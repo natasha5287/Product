@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Product_1</title>
+</head>
+
+<body>
+
+    <header class="header container">
+        <div class="header_wrap">
+            <a href="index.html">
+                <picture>
+                    <source media="(min-width: 768px)" width="178" height="36" srcset="img/logo_desktop.svg">
+                    <img src="img/logo_mobile.svg" width="170" height="36" alt="">
+                </picture>
+            </a>
+            <button class="button header_toggler " type="button" aria-label="Переключатель навигации">
+                <span class="header_toggler-icon"></span>
+                <span class="visually-hidden">Open menu</span>
+            </button>
+        </div>
+        <nav class="nav nav_overlay">
+            <ul class="nav_list">
+                <li class="nav_item">
+                <a class="nav_link" href="index.html">Product</a>
+                </li>
+                <li class="nav_item">
+                <a class="nav_link" href="customers.html">Customers</a>
+                </li>
+                <li class="nav_item">
+                <a class="nav_link nav_link-active" aria-current="page" href="#">Pricing</a>
+                </li>
+                <li class="nav_item">
+                <a class="nav_link" href="resources.html">Resources</a>
+                </li>
+            </ul>
+            <div class="nav_submit">
+                <form class="nav_form">
+                    <button class="button button-light" type="submit">Sign In</button>
+                    <button class="button button-green" type="submit">Sign Up</button>
+                </form>
+                <button class="button button-theme" type="button">
+                    <span class="visually-hidden">change theme</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="price container">
+            <h3 class="price_subtitle title">Pricing</h3>
+            <h2 class="price_title-inner title">Let's get some real work done here.</h2>
+            <p class="price_text">Prodict is your perfect solution for working. Get started now for free</p>
+            <ul class="price_list">
+                <li class="price_item card-price">
+                    <h3 class="card-price_title">Free</h3>
+                    <p class="card-price_description">Brief price description</p>
+                    <div class="card-price_box">
+                        <div class="card-price_number">0</div>
+                        <div>
+                            <div class="card-price_dollar">$</div>
+                            <div class="card-price_period">Per / month</div>
+                        </div>
+                    </div>
+                    <ul class="card-price_option">
+                        <li class="card-price_item">Only 2 Operators</li>
+                        <li class="card-price_item">Notifications</li>
+                        <li class="card-price_item">Landing Pages</li>
+                    </ul>
+                    <button class="card-price_button button button-green" type="button">Order Now</button>
+                </li>
+                <li class="price_item card-price card-price-green">
+                    <h3 class="card-price_title">Standard</h3>
+                    <p class="card-price_description">Brief price description</p>
+                    <div class="card-price_box">
+                        <div class="card-price_number card-price_number-white">5</div>
+                        <div>
+                            <div class="card-price_dollar card-price_dollar-white">$</div>
+                            <div class="card-price_period">Per / month</div>
+                        </div>
+                    </div>
+                    <ul class="card-price_option">
+                        <li class="card-price_item">5+ Operators</li>
+                        <li class="card-price_item">Notifications</li>
+                        <li class="card-price_item">Landing Pages</li>
+                    </ul>
+                    <button class="card-price_button button button-white" type="button">Order Now</button>
+                </li>
+                <li class="price_item card-price">
+                    <h3 class="card-price_title">Premium</h3>
+                    <p class="card-price_description">Brief price description</p>
+                    <div class="card-price_box">
+                        <div class="card-price_number">10</div>
+                        <div>
+                            <div class="card-price_dollar">$</div>
+                            <div class="card-price_period">Per / month</div>
+                        </div>
+                    </div>
+                    <ul class="card-price_option">
+                        <li class="card-price_item">10+ Operators</li>
+                        <li class="card-price_item">Notifications</li>
+                        <li class="card-price_item">Landing Pages</li>
+                    </ul>
+                    <button class="card-price_button button button-green" type="button">Order Now</button>
+                </li>
+            </ul>
+        </section>
+
+        <section class="enterprise">
+            <div class="container">
+                <h3 class="enterprise_subtitle">Enterprise</h3>
+                <h2 class="enterprise_title title">Are you interested  in a custom tailored plan?</h2>
+                <p class="enterprise_text">Product is a set of advanced features for really large teams with projects.</p>
+                <a class="enterprise_link button button-green"  href="">Get in touch with us</a>
+            </div>
+        </section>
+
+        <section class="effects container">
+            <h2 class="effects_title title">Product is being used with great effects alongside:</h2>
+            <div class="effects_wrap">
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="./img/effects-desktop.svg">
+                    <img class="effects_img" src="./img/effects-mobile.svg" alt="">
+                </picture>
+                <ul class="effects_list">
+                    <li class="effects_item">
+                        <div class="effects_box">
+                            <div class="effects_icon">
+                                <svg aria-hidden="true" viewBox="0 0 24 24" width="24" height="24">
+                                    <use xlink:href="./img/sprite.svg#effects-1"></use>
+                                </svg>
+                            </div>
+                            <h3 class="effects_subtitle">Enterpreneur</h3>
+                        </div>
+                        <p class="effects_text">Product is a great way to help medium and samall enterprise owners achieve their goals</p>
+                    </li>
+                    <li class="effects_item">
+                        <div class="effects_box">
+                            <div class="effects_icon">
+                                <svg aria-hidden="true" viewBox="0 0 20 24" width="20" height="24">
+                                    <use xlink:href="./img/sprite.svg#effects-2"></use>
+                                </svg>
+                            </div>
+                            <h3 class="effects_subtitle">Accountants</h3>
+                        </div>
+                        <p class="effects_text">Whether you are working on contract with clients, or on other key accounting documents, Product is for you</p>
+                    </li>
+                    <li class="effects_item">
+                        <div class="effects_box">
+                            <div class="effects_icon">
+                                <svg aria-hidden="true" viewBox="0 0 25 24" width="25" height="24">
+                                    <use xlink:href="./img/sprite.svg#effects-3"></use>
+                                </svg>
+                            </div>
+                            <h3 class="effects_subtitle">Universities</h3>
+                        </div>
+                        <p class="effects_text">Organize university projects and have documents easily graded online with Product</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="question container">
+            <h2 class="question_title title">Frequently asked question</h2>
+            <p class="question_text">Something is not clear? You need help? Check our FAQ section</p>
+            <ul class="question_list accordion">
+                <li class="accordion_item">
+                    <h3 class="accordion_title title">What are my payment option?</h3>
+                    <p class="accordion_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corrupti ducimus debitis eius totam rem expedita distinctio placeat molestias qui.</p>
+                </li>
+                <li class="accordion_item active">
+                    <h3 class="accordion_title title">How can I invite collaborator to platform?</h3>
+                    <p class="accordion_text">After creating your account you will have an oppurtunity to create your first project that will be associated withthe collaborators e-mail. An invitation  will be sent automatically. Then, invited user will have to confirm his account by e-mail and finish userd onboarding.</p>
+                </li>
+                <li class="accordion_item">
+                    <h3 class="accordion_title title">Can I upgrade my plan?</h3>
+                    <p class="accordion_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ratione quo reiciendis fugiat ipsa pariatur quos consequatur cupiditate id nesciunt?</p>
+                </li>
+                <li class="accordion_item">
+                    <h3 class="accordion_title title">Can I cancel my plan at anytime?</h3>
+                    <p class="accordion_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, at! Blanditiis dolorum eius unde hic soluta, itaque repellendus culpa sed.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="join">
+            <div class="join_card">
+                <div class="join_box">
+                    <h3 class="join_text">Join 100 Compannies who boost their business with Product</h3>
+                    <a href="" class="join_link button button-white">Get This</a>
+                </div>
+                <img class="join_img" src="./img/join.png" srcset="./img/join@2x.png" alt="">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <div class="footer_wrapper">
+            <div class="footer_wrap">
+                <a class="footer_logo" href="index.html">
+                    <img src="img/logo-footer.svg" width="163" height="29" alt="">
+                </a>
+                <ul class="footer_social social_list">
+                    <li class="social_item">
+                        <a class="social_link" href="">
+                            <span class="visually-hidden">Instagram</span>
+                            <svg class="social_icon" aria-hidden="true" viewBox="0 0 24 25" width="24" height="25">
+                                <use xlink:href="./img/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social_item">
+                        <a class="social_link" href="">
+                            <span class="visually-hidden">Facebook</span>
+                            <svg class="social_icon" aria-hidden="true" viewBox="0 0 13 22" width="13" height="22">
+                                <use xlink:href="./img/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social_item">
+                        <a class="social_link" href="">
+                            <span class="visually-hidden">Twitter</span>
+                            <svg class="social_icon" aria-hidden="true" viewBox="0 0 24 20" width="24" height="20">
+                                <use xlink:href="./img/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_box">
+                <p class="footer_subtitle">Resource</p>
+                <ul class="footer_list">
+                    <li class="footer_item">About Us</li>
+                    <li class="footer_item">Blog</li>
+                    <li class="footer_item">Contact</li>
+                    <li class="footer_item">FAQ</li>
+                </ul>
+            </div>
+            <div class="footer_box">
+                <p class="footer_subtitle">Legal Stuff</p>
+                <ul class="footer_list">
+                    <li class="footer_item">Disclaimer</li>
+                    <li class="footer_item">Financing</li>
+                    <li class="footer_item">Privacy Policy</li>
+                    <li class="footer_item">Terms of Service</li>
+                </ul>
+            </div>
+            <div class="footer_box">
+                <p class="footer_subtitle">knowing you're always on the best energy deal.</p>
+                <form class="footer_form">
+                    <label class="visually-hidden" for="sign"></label>
+                    <input class="footer_input" id="sign" type="text">
+                    <a class="footer_link button button-green" href="">Sign up Now</a>
+                </form>
+            </div>
+        </div>
+        <p class="footer_copyright">Made With Love By Product All Right Reserved </p>
+    </footer>
+
+    <script src="scripts/main.min.js" type="module"></script>
+</body>
+</html>

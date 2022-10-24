@@ -1,0 +1,23 @@
+.slider {
+    display: none;
+
+    @media (min-width: $desktop-width) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.slider_toggle {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #EFEFEF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &-current {
+        background-color: $primary-color;
+    }
+}

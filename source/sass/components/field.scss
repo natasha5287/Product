@@ -1,0 +1,48 @@
+.field {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 19px 20px;
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+    font-weight: 400;
+
+    
+    &:placeholder-shown {
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: $text-color;
+    }
+
+    &::-webkit-input-placeholder {
+        font-family: "Poppins", "Arial", sans-serif;
+        color: $text-color;
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+      }
+    
+      &::-moz-placeholder {
+        font-family: "Poppins", "Arial", sans-serif;
+        color: $text-color;
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+      }
+    
+      &:-ms-input-placeholder {
+        font-family: "Poppins", "Arial", sans-serif;
+        color: $text-color;
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+      }
+}
+
+.field-text {
+    min-height: 200px;
+    padding: 23px 20px;
+    border-radius: 0;
+}

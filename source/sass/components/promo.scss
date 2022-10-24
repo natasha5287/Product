@@ -1,0 +1,120 @@
+.promo {
+    padding-top: 20px;
+    margin-bottom: 50px;
+
+    @media (min-width: $desktop-width) {
+        display: flex;
+        margin-bottom: 60px;
+    }
+}
+
+.promo_wrap {
+    margin-bottom: 80px;
+
+    @media (min-width: $desktop-width) {
+        width: 50%;
+        margin-bottom: 0;
+        padding-right: 25px;
+        padding-top: 35px;
+    }
+}
+
+.promo_title {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    @media (min-width: $desktop-width) {
+        margin-bottom: 25px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: left;
+    }
+}
+
+.promo_text {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    @media (min-width: $desktop-width) {
+        line-height: 32px;
+        text-align: left;
+    }
+}
+
+.promo_form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    @media (min-width: $desktop-width) {
+        justify-content: flex-start;
+    }
+}
+
+.promo_input {
+    width: 100%;
+    padding: 25px 120px 25px 23px;
+    border: 1px solid #EAEAEA;
+    border-radius: 100px;
+
+    @media (min-width: $desktop-width) {
+        max-width: 470px;
+    }
+}
+
+.promo_input::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+    color: #000;
+}
+
+.promo_link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 100px;
+    text-decoration: none;
+
+    @media (min-width: $desktop-width) {
+        right: 50px;
+    }
+}
+
+.promo_box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.promo_icon {
+    margin-right: 5px;
+}
+
+.promo_count {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    &:green {
+        color: $primary-color;
+    }
+}
+
+.promo_img {
+    display: block;
+    margin: 0 auto;
+}

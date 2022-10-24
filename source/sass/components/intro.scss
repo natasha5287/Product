@@ -1,0 +1,113 @@
+.intro {
+    margin-bottom: 116px;
+
+    @media (min-width: $desktop-width) {
+        display: flex;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+}
+
+.intro_description {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $desktop-width) {
+        max-width: 500px;
+        padding: 0 30px 0 15px;
+    }
+}
+
+.intro_title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 16px;
+
+    @media (min-width: $desktop-width) {
+        font-size: 40px;
+        text-align: left;
+    }
+}
+
+.intro_text {
+    padding: 0 15px 0;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+
+    @media (min-width: $desktop-width) {
+        text-align: left;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+}
+
+.intro_image {
+    order: 2;
+}
+
+.intro_img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 338px;
+    height: 311px;
+
+    @media (min-width: $desktop-width) {
+        width: 600px;
+        height: 556px;
+    }
+}
+
+.intro_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0;
+
+    @media (min-width: $desktop-width) {
+        justify-content: flex-start;
+        padding: 0;
+    }
+}
+
+.intro_link {
+    text-decoration: none;
+    padding: 15px 25px;
+
+    &:hover {
+        opacity: 0.6;
+    }
+
+    @media (min-width: $desktop-width) {
+        padding: 15px 40px;
+    }
+}
+
+.intro_video {
+    position: relative;
+    margin-left: 25px;
+    padding-right: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: $primary-color;
+
+    @media (min-width: $desktop-width) {
+        padding-left: 25px;
+        margin-left: 35px;
+    }
+}
+
+.intro_video::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 20px;
+    height: 18px;
+    background: no-repeat url("../img/triangle.svg");
+}

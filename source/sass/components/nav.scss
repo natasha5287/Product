@@ -1,0 +1,73 @@
+.nav {
+    @media (max-width: $desktop-width) {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        right: 0;
+        padding: 0 20px;
+    }
+   
+    @media (min-width: $desktop-width) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: transparent;
+    }
+}
+
+.nav_list {
+    list-style: none;
+
+    @media (min-width: $desktop-width) {
+        display: flex;
+    }
+}
+
+.nav_item {
+    padding: 0 5px;
+    margin-right: 20px;
+}
+
+.nav_link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+.nav_link-active {
+    font-weight: 600;
+}
+
+.nav_submit {
+    @media (min-width: $desktop-width) {
+        display: flex;
+    }
+}
+
+.nav_submit {
+    align-items: center;
+}
+
+.nav_form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+
+    @media (min-width: $desktop-width) {
+        flex-direction: row;
+        margin-bottom: 0;
+    }
+}
+
+.nav_overlay {
+    @media (max-width: $desktop-width) {
+        display: none;
+    }
+}
