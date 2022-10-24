@@ -10,43 +10,513 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-              Dropdown
+    <header class="header container">
+        <div class="header_wrap">
+            <a href="index.html">
+                <picture>
+                    <source media="(min-width: 768px)" width="178" height="36" srcset="img/logo_desktop.svg">
+                    <img src="img/logo_mobile.svg" width="170" height="36" alt="">
+                </picture>
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <button class="button header_toggler " type="button" aria-label="Переключатель навигации">
+                <span class="header_toggler-icon"></span>
+                <span class="visually-hidden">Open menu</span>
+            </button>
+        </div>
+        <nav class="nav nav_overlay">
+            <ul class="nav_list">
+                <li class="nav_item">
+                <a class="nav_link nav_link-active" aria-current="page" href="#">Product</a>
+                </li>
+                <li class="nav_item">
+                <a class="nav_link" href="customers.html">Customers</a>
+                </li>
+                <li class="nav_item">
+                <a class="nav_link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav_item">
+                <a class="nav_link" href="resources.html">Resources</a>
+                </li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-    
+            <div class="nav_submit">
+                <form class="nav_form">
+                    <button class="button button-light" type="submit">Sign In</button>
+                    <button class="button button-green" type="submit">Sign Up</button>
+                </form>
+                <button class="button button-theme" type="button">
+                    <span class="visually-hidden">change theme</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h1 class="visually-hidden"></h1>
+
+        <section class="intro container">
+            <div class="intro_image">
+                <img class="intro_img" src="./img/intro.svg" width="338" height="311" alt="">
+            </div>
+            <div class="intro_description">
+                <h2 class="intro_title">Work at the speed<br> of thought</h2>
+                <p class="intro_text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+                <div class="intro_box">
+                    <a class="intro_link button button-green" href="#">Get started</a>
+                    <a class="intro_link intro_video" href="#">Watch the Video</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="tests container">
+            <h2 class="tests_title title">Product  was Built Specifically for You</h2>
+            <ul class="tests_list">
+                <li class="tests_item">
+                    <div class="tests_icon">
+                        <svg class="" aria-hidden="true" viewBox="0 0 11 17" width="11" height="17">
+                            <use xlink:href="./img/sprite.svg#arrow"></use>
+                        </svg>
+                    </div>
+                    <h3 class="tests_subtitle">First click tests</h3>
+                    <p class="tests_text">While most people enjoy casino gambling,</p>
+                </li>
+                <li class="tests_item">
+                    <div class="tests_icon tests_icon-survey">
+                        <svg class="" aria-hidden="true" viewBox="0 0 18 14" width="18" height="14">
+                            <use xlink:href="./img/sprite.svg#survey"></use>
+                        </svg>
+                    </div>
+                    <h3 class="tests_subtitle">Design surveys</h3>
+                    <p class="tests_text">Sports betting, lottery and bingo playing for the fun</p>
+                </li>
+                <li class="tests_item">
+                    <div class="tests_icon tests_icon-heart">
+                        <svg class="" aria-hidden="true" viewBox="0 0 16 15" width="16" height="15">
+                            <use xlink:href="./img/sprite.svg#heart"></use>
+                        </svg>
+                    </div>
+                    <h3 class="tests_subtitle">Preference tests</h3>
+                    <p class="tests_text">The Myspace page defines the individual.</p>
+                </li>
+                <li class="tests_item">
+                    <div class="tests_icon tests_icon-hourglass">
+                        <svg class="" aria-hidden="true" viewBox="0 0 14 17" width="14" height="17">
+                            <use xlink:href="./img/sprite.svg#hourglass"></use>
+                        </svg>
+                    </div>
+                    <h3 class="tests_subtitle">Five second tests</h3>
+                    <p class="tests_text">Personal choices and the overall personality of the person. </p>
+                </li>
+            </ul>
+            <form class="tests_form">
+                <a class="tests_link button button-green" href="">SIGN UP NOW</a>
+            </form>
+        </section>
+
+        <section class="benefits container">
+            <h2 class="visually-hidden">Benefits</h2>
+            <ul class="benefits_list">
+                <li class="benefits_item">
+                    <img class="benefits_img" src="./img/management.svg" width="350" height="306" loading="lazy" alt="">
+                    <div class="benefits_box">
+                        <h3 class="benefits_subtitle">Effortless Validation for</h3>
+                        <h2 class="benefits_title title">Management</h2>
+                        <p class="benefits_text">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+                        <h4 class="benefits_subtitle-s">Accessory makers</h4>
+                        <p class="benefits_text">While most people enjoy casino gambling, sports betting, lottery and</p>
+                        <h4 class="benefits_subtitle-s">Alterationists</h4>
+                        <p class="benefits_text">If you are looking for a new way to promote your business that won't cost</p>
+                    </div>
+                </li>
+                <li class="benefits_item">
+                    <img class="benefits_img" src="./img/support.svg" width="350" height="319" loading="lazy" alt="">
+                    <div class="benefits_box">
+                        <h3 class="benefits_subtitle">Easier decision making for</h3>
+                        <h2 class="benefits_title title">Customer Support</h2>
+                        <p class="benefits_text">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person.</p>
+                        <ul class="benefits-offer_list">
+                            <li class="benefits-offer_item">
+                                <p class="benefits_text">Never worry about overpaying for your energy again. </p>
+                            </li>
+                            <li class="benefits-offer_item">
+                                <p class="benefits_text">We will only switch you to energy companies that we trust and will treat you right</p>
+                            </li>
+                            <li class="benefits-offer_item">
+                                <p class="benefits_text">We track the markets daily and know where the savings are.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="benefits_item">
+                    <img class="benefits_img" src="./img/collaborative.svg" width="350" height="292" loading="lazy" alt="">
+                    <div class="benefits_box">
+                        <h3 class="benefits_subtitle">Optimisation for</h3>
+                        <h2 class="benefits_title title">Collaborative</h2>
+                        <p class="benefits_text">Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. </p>
+                        <h4 class="benefits_subtitle-s">Accessory makers</h4>
+                        <p class="benefits_text">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                        <h4 class="benefits_subtitle-s">Alterationists</h4>
+                        <p class="benefits_text">If you are looking for a new way to promote your business that won't cost you more money, </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="staff container">
+            <h2 class="staff_title title">Quick & Easy Process</h2>
+            <p class="staff_text">Do you require some help for your project: Conception workshop, prototyping, marketing strategy, landing page, Ux/UI?</p>
+            <ul class="staff_list">
+                <li class="staff_item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 768px)" srcset="./img/avatar-1-desktop.webp 1x, ./img/avatar-1-desktop@2x.webp 2x">
+                        <source type="image/webp" srcset="./img/avatar-1.webp 1x, ./img/avatar-1@2x.webp 2x">
+                        <source media="(min-width: 768px)" srcset="./img/avatar-1-desktop.png 1x, ./img/avatar-1-desktop@2x.png 2x">
+                        <img class="staff_avatar" src="./img/avatar-1.png" srcset="./img/avatar-1@2x.png 2x" loading="lazy" alt="">
+                    </picture> 
+                    <div class="staff_phrase">I can take care of your pitch</div>
+                </li>
+                <li class="staff_item">
+                        <picture>
+                            <source type="image/webp" media="(min-width: 768px)" srcset="./img/avatar-2-desktop.webp 1x, ./img/avatar-2-desktop@2x.webp 2x">
+                            <source type="image/webp" srcset="./img/avatar-2.webp 1x, ./img/avatar-2@2x.webp 2x">
+                            <source media="(min-width: 768px)" srcset="./img/avatar-2-desktop.png 1x, ./img/avatar-2-desktop@2x.png 2x">
+                            <img class="staff_avatar" src="./img/avatar-2.png" srcset="./img/avatar-2@2x.png 2x" loading="lazy" alt="">
+                        </picture> 
+                    <div class="staff_phrase">I can design you website</div>
+                </li>
+                <li class="staff_item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 768px)" srcset="./img/avatar-3-desktop.webp 1x, ./img/avatar-3-desktop@2x.webp 2x">
+                        <source type="image/webp" srcset="./img/avatar-3.webp 1x, ./img/avatar-3@2x.webp 2x">
+                        <source media="(min-width: 768px)" srcset="./img/avatar-3-desktop.png 1x, ./img/avatar-3-desktop@2x.png 2x">
+                        <img class="staff_avatar" src="./img/avatar-3.png" srcset="./img/avatar-3@2x.png 2x" loading="lazy" alt="">
+                    </picture> 
+                    <div class="staff_phrase">I can help marketing strategy</div>
+                </li>
+                <li class="staff_item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 768px)" srcset="./img/avatar-4-desktop.webp 1x, ./img/avatar-4-desktop@2x.webp 2x">
+                        <source type="image/webp" srcset="./img/avatar-4.webp 1x, ./img/avatar-4@2x.webp 2x">
+                        <source media="(min-width: 768px)" srcset="./img/avatar-4-desktop.png 1x, ./img/avatar-4-desktop@2x.png 2x">
+                        <img class="staff_avatar" src="./img/avatar-4.png" srcset="./img/avatar-4@2x.png 2x" loading="lazy" alt="">
+                    </picture> 
+                    <div class="staff_phrase">I can prototype your app</div>
+                </li>
+            </ul>
+            <a class="staff_link button button-green" href="">Contact our expert</a>
+        </section>
+
+        <section class="news container">
+            <h2 class="news_title title">Contents Strategies</h2>
+            <p class="news_text">We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
+            <ul class="news_list">
+                <li class="card-news">
+                    <picture>
+                        <source type="image/webp" srcset="./img/news-1.webp 1x, ./img/news-1@2x.webp 2x">
+                        <img class="card-news_img" src="./img/news-1.jpg" srcset="./img/news-1@2x.jpg" loading="lazy" alt="">
+                    </picture>
+                    <div class="card-news_body">
+                        <div class="card-news_date">By <strong>Wahid Ari</strong>  | 03 March 2019</div>
+                        <a class="card-news_link" href="#">Increasing Prosperity With Positive Thinking</a>
+                    </div>
+                </li>
+                <li class="card-news">
+                    <picture>
+                        <source type="image/webp" srcset="./img/news-2.webp 1x, ./img/news-2@2x.webp 2x">
+                        <img class="card-news_img" src="./img/news-2.png" srcset="./img/news-2@2x.png" loading="lazy" alt="">
+                    </picture>
+                    <div class="card-news_body">
+                        <div class="card-news_date">By <strong>Wahid Ari</strong> | 03 March 2019</div>
+                        <a class="card-news_link card-news_link-green" href="#">Motivation Is The First Step To Success</a>
+                    </div>
+                </li>
+                <li class="card-news">
+                    <picture>
+                        <source type="image/webp" srcset="./img/news-3.webp 1x, ./img/news-3@2x.webp 2x">
+                        <img class="card-news_img" src="./img/news-3.png" srcset="./img/news-3@2x.png" loading="lazy" alt="">
+                    </picture>
+                    <div class="card-news_body">
+                        <div class="card-news_date">By <strong>Wahid Ari</strong> | 03 March 2019</div>
+                        <a class="card-news_link" href="#">Success Steps For Your Personal Or Business</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="news_slider slider">
+                <button class="slider_toggle" type="button"><span class="visually-hidden">1</span></button>
+                <button class="slider_toggle slider_toggle-current" type="button"><span class="visually-hidden">2</span></button>
+                <button class="slider_toggle" type="button"><span class="visually-hidden">3</span></button>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="price_title title">Price Table</h2>
+            <p class="price_text">We offer competitive price</p>
+            <ul class="price_list">
+                <li class="price_item card-price">
+                    <h3 class="card-price_title">Free</h3>
+                    <p class="card-price_description">Brief price description</p>
+                    <div class="card-price_box">
+                        <div class="card-price_number">0</div>
+                        <div>
+                            <div class="card-price_dollar">$</div>
+                            <div class="card-price_period">Per / month</div>
+                        </div>
+                    </div>
+                    <ul class="card-price_option">
+                        <li class="card-price_item">Only 2 Operators</li>
+                        <li class="card-price_item">Notifications</li>
+                        <li class="card-price_item">Landing Pages</li>
+                    </ul>
+                    <button class="card-price_button button button-green" type="button">Order Now</button>
+                </li>
+                <li class="price_item card-price card-price-green">
+                    <h3 class="card-price_title">Standard</h3>
+                    <p class="card-price_description">Brief price description</p>
+                    <div class="card-price_box">
+                        <div class="card-price_number card-price_number-white">5</div>
+                        <div>
+                            <div class="card-price_dollar card-price_dollar-white">$</div>
+                            <div class="card-price_period">Per / month</div>
+                        </div>
+                    </div>
+                    <ul class="card-price_option">
+                        <li class="card-price_item">5+ Operators</li>
+                        <li class="card-price_item">Notifications</li>
+                        <li class="card-price_item">Landing Pages</li>
+                    </ul>
+                    <button class="card-price_button button button-white" type="button">Order Now</button>
+                </li>
+                <li class="price_item card-price">
+                    <h3 class="card-price_title">Premium</h3>
+                    <p class="card-price_description">Brief price description</p>
+                    <div class="card-price_box">
+                        <div class="card-price_number">10</div>
+                        <div>
+                            <div class="card-price_dollar">$</div>
+                            <div class="card-price_period">Per / month</div>
+                        </div>
+                    </div>
+                    <ul class="card-price_option">
+                        <li class="card-price_item">10+ Operators</li>
+                        <li class="card-price_item">Notifications</li>
+                        <li class="card-price_item">Landing Pages</li>
+                    </ul>
+                    <button class="card-price_button button button-green" type="button">Order Now</button>
+                </li>
+            </ul>
+        </section>
+
+        <section class="reviews container">
+            <h2 class="reviews_title title">What Clients Say</h2>
+            <p class="reviews_text">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+            <ul class="reviews_list">
+                <li class="reviews_item">
+                    <div class="reviews_rating">
+                        <span>
+                            <svg viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star-active"></use>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg class="star" aria-hidden="true" viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star-active"></use>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg class="star" aria-hidden="true" viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star-active"></use>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg class="star" aria-hidden="true" viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star-active"></use>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg class="star" aria-hidden="true" viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star"></use>
+                            </svg>
+                        </span>
+                    </div>
+                    <blockquote>
+                        <p class="reviews_description">Product helps you see how many 
+                            more days you need to work to 
+                            reach your financial goal.</p>
+                    </blockquote>
+                    <div class="reviews_box">
+                        <picture>
+                            <source type="image/webp" srcset="./img/reviews-1.webp 1x, ./img/reviews-1@2x.webp 2x">
+                            <img class="reviews_avatar" src="./img/reviews-1.png" srcset="./img/reviews-1@2x.png" loading="lazy" alt="">
+                        </picture>
+                        <div class="reviews_autor">
+                            <div class="reviews_name">Wahid Ari</div>
+                            <div class="reviews_profession">Designer</div>
+                        </div>
+                    </div>
+                </li>    
+                <li class="reviews_item">
+                    <div class="reviews_rating">
+                        <span>
+                            <svg viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star-active"></use>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg class="star" aria-hidden="true" viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star-active"></use>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg class="star" aria-hidden="true" viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star-active"></use>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg class="star" aria-hidden="true" viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star-active"></use>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg class="star" aria-hidden="true" viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star"></use>
+                            </svg>
+                        </span>
+                    </div>
+                    <blockquote>
+                        <p class="reviews_description">Product helps you see how many 
+                            more days you need to work to 
+                            reach your financial goal.</p>
+                    </blockquote>
+                    <div class="reviews_box">
+                        <picture>
+                            <source type="image/webp" srcset="./img/reviews-2.webp 1x, ./img/reviews-2@2x.webp 2x">
+                            <img class="reviews_avatar" src="./img/reviews-2.png" srcset="./img/reviews-2@2x.png" loading="lazy" alt="">
+                        </picture>
+                        <div class="reviews_autor">
+                            <div class="reviews_name">Wahid Ari</div>
+                            <div class="reviews_profession">FrontEnd</div>
+                        </div>
+                    </div>
+                </li> 
+                <li class="reviews_item">
+                    <div class="reviews_rating">
+                        <span>
+                            <svg viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star-active"></use>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg class="star" aria-hidden="true" viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star-active"></use>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg class="star" aria-hidden="true" viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star-active"></use>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg class="star" aria-hidden="true" viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star-active"></use>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg class="star" aria-hidden="true" viewBox="0 0 19 19" width="19" height="19">
+                                <use xlink:href="./img/sprite.svg#star"></use>
+                            </svg>
+                        </span>
+                    </div>
+                    <blockquote>
+                        <p class="reviews_description">Product helps you see how many 
+                            more days you need to work to 
+                            reach your financial goal.</p>
+                    </blockquote>
+                    <div class="reviews_box">
+                        <picture>
+                            <source type="image/webp" srcset="./img/reviews-3.webp 1x, ./img/reviews-3@2x.webp 2x">
+                            <img class="reviews_avatar" src="./img/reviews-3.png" srcset="./img/reviews23@2x.png" loading="lazy" alt="">
+                        </picture>
+                        <div class="reviews_autor">
+                            <div class="reviews_name">Wahid Ari</div>
+                            <div class="reviews_profession">Analys</div>
+                        </div>
+                    </div>
+                </li>            
+            </ul>
+        </section>
+
+        <section class="join">
+            <div class="join_card">
+                <div class="join_box">
+                    <h3 class="join_text">Join 100 Compannies who boost their business with Product</h3>
+                    <a href="" class="join_link button button-white">Get This</a>
+                </div>
+                <img class="join_img" src="./img/join.png" srcset="./img/join@2x.png" loading="lazy" alt="">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <div class="footer_wrapper">
+            <div class="footer_wrap">
+                <a class="footer_logo" href="index.html">
+                    <img src="img/logo-footer.svg" width="163" height="29" loading="lazy" alt="">
+                </a>
+                <ul class="footer_social social_list">
+                    <li class="social_item">
+                        <a class="social_link" href="https://www.instagram.com/">
+                            <span class="visually-hidden">Instagram</span>
+                            <svg class="social_icon" aria-hidden="true" viewBox="0 0 24 25" width="24" height="25">
+                                <use xlink:href="./img/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social_item">
+                        <a class="social_link" href="https://www.facebook.com/">
+                            <span class="visually-hidden">Facebook</span>
+                            <svg class="social_icon" aria-hidden="true" viewBox="0 0 13 22" width="13" height="22">
+                                <use xlink:href="./img/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social_item">
+                        <a class="social_link" href="https://twitter.com/">
+                            <span class="visually-hidden">Twitter</span>
+                            <svg class="social_icon" aria-hidden="true" viewBox="0 0 24 20" width="24" height="20">
+                                <use xlink:href="./img/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_box">
+                <p class="footer_subtitle">Resource</p>
+                <ul class="footer_list">
+                    <li class="footer_item">About Us</li>
+                    <li class="footer_item">Blog</li>
+                    <li class="footer_item">Contact</li>
+                    <li class="footer_item">FAQ</li>
+                </ul>
+            </div>
+            <div class="footer_box">
+                <p class="footer_subtitle">Legal Stuff</p>
+                <ul class="footer_list">
+                    <li class="footer_item">Disclaimer</li>
+                    <li class="footer_item">Financing</li>
+                    <li class="footer_item">Privacy Policy</li>
+                    <li class="footer_item">Terms of Service</li>
+                </ul>
+            </div>
+            <div class="footer_box">
+                <p class="footer_subtitle">knowing you're always on the best energy deal.</p>
+                <form class="footer_form">
+                    <label class="visually-hidden" for="sign"></label>
+                    <input class="footer_input" id="sign" type="text">
+                    <a class="footer_link button button-green" href="">Sign up Now</a> 
+                </form>
+            </div>
+        </div>
+        <p class="footer_copyright">Made With Love By Product All Right Reserved </p>
+    </footer>
 
     <script src="scripts/main.min.js" type="module"></script>
 </body>

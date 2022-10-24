@@ -1,0 +1,27 @@
+.companies {
+    list-style: none;
+}
+
+.companies_item:nth-child(even) {
+
+    @media (max-width: $desktop-width) {
+        justify-self: end;
+    }
+}
+
+.companies_item {
+    @media (min-width: $desktop-width) {
+        margin-right: 64px;
+
+        &:nth-child(4n+4){
+            margin-right: 0;
+        }
+    }
+}
+
+.companies_img {
+    @media (min-width: $desktop-width) {
+        width: 213px;
+        height: 44px;
+    }
+}

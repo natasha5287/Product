@@ -1,0 +1,46 @@
+.enterprise {
+    margin-bottom: 100px;
+    padding: 45px 0;
+    background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0) 100%);
+
+    @media (min-width: $desktop-width) {
+        margin-bottom: 160px;
+    }
+}
+
+.enterprise_subtitle {
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.enterprise_title {
+    margin-bottom: 25px;
+    padding: 0 10px;
+    text-align: center;
+
+    @media (min-width: $desktop-width) {
+        margin-bottom: 5px;
+        font-size: 34px;
+        line-height: 51px;
+    }
+}
+
+.enterprise_text {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.enterprise_link {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+}

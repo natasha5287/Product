@@ -1,0 +1,120 @@
+.tests {
+    position: relative;
+    margin-bottom: 100px;
+
+    @media (min-width: $desktop-width) {
+        margin-bottom: 195px;
+    }    
+}
+
+.tests_title {
+    margin-bottom: 50px;
+    text-align: center;
+
+    @media (min-width: $desktop-width) {
+        margin-bottom: 70px;
+        padding: 0 300px;
+    }
+}
+
+.tests_list {
+    padding: 0 50px;
+    list-style: none;
+    margin-bottom: 35px;
+
+    @media (min-width: $tablet-width) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    @media (min-width: $desktop-width) {
+        column-gap: 45px;
+    }
+}
+
+.tests_item {
+    margin-bottom: 40px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    @media (min-width: $tablet-width) {
+        width: 50%;
+        margin-bottom: 30px;
+        padding: 0 20px;
+    }
+
+    @media (min-width: $desktop-width) {
+        width: 240px;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+}
+
+.tests_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    background-color: $primary-color;
+
+    &-survey {
+        background-color: $blue-color;
+    }
+
+    &-heart {
+        background-color: $violet-color;
+    }
+
+    &-hourglass {
+        background-color: $red-color;
+    }
+
+    @media (min-width: $desktop-width) {
+        margin: 0 0 30px;
+    }
+}
+
+.tests_subtitle {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 5px;
+
+    @media (min-width: $desktop-width) {
+        margin-bottom: 15px;
+        text-align: left;
+    }
+}
+
+.tests_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+
+    @media (min-width: $desktop-width) {
+        text-align: left;
+    }
+}
+
+.tests_form {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.tests_link {
+    padding: 15px 33px;
+    text-decoration: none;
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Product_1</title>
+</head>
+<body>
+
+    <header class="header container">
+        <div class="header_wrap">
+            <a href="index.html">
+                <picture>
+                    <source media="(min-width: 768px)" width="178" height="36" srcset="img/logo_desktop.svg">
+                    <img src="img/logo_mobile.svg" width="170" height="36" alt="">
+                </picture>
+            </a>
+            <button class="button header_toggler " type="button" aria-label="Переключатель навигации">
+                <span class="header_toggler-icon"></span>
+                <span class="visually-hidden">Open menu</span>
+            </button>
+        </div>
+        <nav class="nav nav_overlay">
+            <ul class="nav_list">
+                <li class="nav_item">
+                <a class="nav_link" href="index.html">Product</a>
+                </li>
+                <li class="nav_item">
+                <a class="nav_link nav_link-active" aria-current="page"  href="#">Customers</a>
+                </li>
+                <li class="nav_item">
+                <a class="nav_link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav_item">
+                <a class="nav_link" href="resources.html">Resources</a>
+                </li>
+            </ul>
+            <div class="nav_submit">
+                <form class="nav_form">
+                    <button class="button button-light" type="submit">Sign In</button>
+                    <button class="button button-green" type="submit">Sign Up</button>
+                </form>
+                <button class="button button-theme" type="button">
+                    <span class="visually-hidden">change theme</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="clients container">
+            <h2 class="clients_title title">Our Clients</h2>
+            <ul class="clients_list companies">
+                <li class="companies_item">
+                    <img src="./img/airbnb.svg" width="158" height="50" alt="logotype Aribnb">
+                </li>
+                <li class="companies_item">
+                    <img src="./img/google.svg" width="146" height="50" alt="logotype Google">
+                </li>
+                <li class="companies_item">
+                    <img class="companies_img" src="./img/microsoft.svg" width="164" height="34" alt="logotype Microsoft">
+                </li>
+                <li class="companies_item">
+                    <img src="./img/fedex.svg" width="140" height="42" alt="logotype FedEx">
+                </li>
+            </ul>
+        </section>
+
+        <section class="advantage">
+            <div class="advantage_wrap container">
+                <h2 class="advantage_title title">Why Choose Product?</h2>
+                <ul class="advantage_list">
+                    <li class="advantage_item">
+                        <div class="advantage_icon">
+                            <svg aria-hidden="true" viewBox="0 0 11 17" width="11" height="17">
+                                <use xlink:href="./img/sprite.svg#arrow"></use>
+                            </svg>
+                        </div>
+                        <h3 class="advantage_subtitle">Special Business</h3>
+                        <p class="advantage_text">Product helps you see how many 
+                            more days you need to work 
+                            to reach your financial goal 
+                            for the month and year.</p>
+                    </li>
+                    <li class="advantage_item">
+                        <div class="advantage_icon advantage_icon-survey">
+                            <svg aria-hidden="true" viewBox="0 0 18 14" width="18" height="14">
+                                <use xlink:href="./img/sprite.svg#survey"></use>
+                            </svg>
+                        </div>
+                        <h3 class="advantage_subtitle">Instant Result</h3>
+                        <p class="advantage_text">Product helps you see how many 
+                            more days you need to work 
+                            to reach your financial goal 
+                            for the month and year.</p>
+                    </li>
+                    <li class="advantage_item">
+                        <div class="advantage_icon advantage_icon-heart">
+                            <svg aria-hidden="true" viewBox="0 0 16 15" width="16" height="15">
+                                <use xlink:href="./img/sprite.svg#heart"></use>
+                            </svg>
+                        </div>
+                        <h3 class="advantage_subtitle">Fastest way to organize</h3>
+                        <p class="advantage_text">Product helps you see how many 
+                            more days you need to work 
+                            to reach your financial goal 
+                            for the month and year.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="work container">
+            <h2 class="work_title title">How Product Work?</h2>
+            <ol class="work_list">
+                <li class="work_item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1200px)" srcset="./img/work-desktop-1.webp 1x, ./img/work-desktop-1@2x.webp 2x">
+                        <source type="image/webp" srcset="./img/work-1.webp 1x, ./img/work-1@2x.webp 2x">
+                        <source media="(min-width: 1200px)" srcset="./img/work-desktop-1.png 1x, ./img/work-desktop-1@2x.png 2x">
+                        <img  class="work_img" src="./img/work-1.png" srcset="./img/work-1@2x.png" width="350" height="195" alt="">
+                    </picture>
+                    <div class="work_box">
+                        <h4 class="work_step">Step 1</h4>
+                        <h3 class="work_subtitle title">Apply for a product</h3>
+                        <p class="work_text">Completing our easy step-by-step application form gives you access to multiple business with multiple products. We analyse your business through our proprietary credit analysis technology </p>
+                    </div>
+                </li>
+                <li class="work_item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1200px)" srcset="./img/work-desktop-2.webp 1x, ./img/work-desktop-2@2x.webp 2x">
+                        <source type="image/webp" srcset="./img/work-2.webp 1x, ./img/work-2@2x.webp 2x">
+                        <source media="(min-width: 1200px)" srcset="./img/work-desktop-2.png 1x, ./img/work-desktop-2@2x.png 2x">
+                        <img  class="work_img" src="./img/work-2.png" srcset="./img/work-2@2x.png" width="350" height="195" alt="">
+                    </picture>
+                    <div class="work_box">
+                        <h4 class="work_step">Step 2</h4>
+                        <h3 class="work_subtitle title">Pay fully refundable</h3>
+                        <p class="work_text">Product will contactting you instantly to receive payment of the Application Fee. if no offer of product is available, your fee will be fully refunded.</p>
+                    </div>
+                </li>
+                <li class="work_item">
+                    <picture>
+                        <source type="image/webp" media="(min-width: 1200px)" srcset="./img/work-desktop-3.webp 1x, ./img/work-desktop-3@2x.webp 2x">
+                        <source type="image/webp" srcset="./img/work-3.webp 1x, ./img/work-3@2x.webp 2x">
+                        <source media="(min-width: 1200px)" srcset="./img/work-desktop-3.png 1x, ./img/work-desktop-3@2x.png 2x">
+                        <img  class="work_img" src="./img/work-3.png" srcset="./img/work-3@2x.png" width="350" height="195" alt="">
+                    </picture>
+                    <div class="work_box">
+                        <h4 class="work_step">Step 3</h4>
+                        <h3 class="work_subtitle title">Completion</h3>
+                        <p class="work_text">Product will continue to liase between borrower and manager to procees and complete a quick and efficient settlement</p>
+                    </div>
+                </li>
+            </ol>
+            <a class="work_link button button-green" href="">Get in touch with us</a>
+        </section>
+
+        <section class="offer">
+            <div class="container">
+                <h2 class="offer_title title">Join thousand of other who have
+                    already received offers</h2>
+                <div class="offer_wrap">
+                    <div class="offer_box">
+                        <h3 class="offer_subtitle offer_subtitle-business">Business</h3>
+                        <ul class="offer_list">
+                            <li class="offer_item">Cash Flow</li>
+                            <li class="offer_item">Asset Backed</li>
+                            <li class="offer_item">Receivables Finance</li>
+                        </ul>
+                        <p class="offer_note">Find the best business product</p>
+                    </div>
+                    <div class="offer_box">
+                        <h3 class="offer_subtitle offer_subtitle-enterprise">Enterprise</h3>
+                        <ul class="offer_list">
+                            <li class="offer_item">Site Acquisition</li>
+                            <li class="offer_item">Bridge </li>
+                            <li class="offer_item">Development Financing</li>
+                        </ul>
+                        <p class="offer_note">Find the best business product</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="join">
+            <div class="join_card">
+                <div class="join_box">
+                    <h3 class="join_text">Join 100 Compannies who boost their business with Product</h3>
+                    <a href="" class="join_link button button-white">Get This</a>
+                </div>
+                <img class="join_img" src="./img/join.png" srcset="./img/join@2x.png" alt="">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer container">
+        <div class="footer_wrapper">
+            <div class="footer_wrap">
+                <a class="footer_logo" href="index.html">
+                    <img src="img/logo-footer.svg" width="163" height="29" alt="">
+                </a>
+                <ul class="footer_social social_list">
+                    <li class="social_item">
+                        <a class="social_link" href="">
+                            <span class="visually-hidden">Instagram</span>
+                            <svg class="social_icon" aria-hidden="true" viewBox="0 0 24 25" width="24" height="25">
+                                <use xlink:href="./img/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social_item">
+                        <a class="social_link" href="">
+                            <span class="visually-hidden">Facebook</span>
+                            <svg class="social_icon" aria-hidden="true" viewBox="0 0 13 22" width="13" height="22">
+                                <use xlink:href="./img/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social_item">
+                        <a class="social_link" href="">
+                            <span class="visually-hidden">Twitter</span>
+                            <svg class="social_icon" aria-hidden="true" viewBox="0 0 24 20" width="24" height="20">
+                                <use xlink:href="./img/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_box">
+                <p class="footer_subtitle">Resource</p>
+                <ul class="footer_list">
+                    <li class="footer_item">About Us</li>
+                    <li class="footer_item">Blog</li>
+                    <li class="footer_item">Contact</li>
+                    <li class="footer_item">FAQ</li>
+                </ul>
+            </div>
+            <div class="footer_box">
+                <p class="footer_subtitle">Legal Stuff</p>
+                <ul class="footer_list">
+                    <li class="footer_item">Disclaimer</li>
+                    <li class="footer_item">Financing</li>
+                    <li class="footer_item">Privacy Policy</li>
+                    <li class="footer_item">Terms of Service</li>
+                </ul>
+            </div>
+            <div class="footer_box">
+                <p class="footer_subtitle">knowing you're always on the best energy deal.</p>
+                <form class="footer_form">
+                    <label class="visually-hidden" for="sign"></label>
+                    <input class="footer_input" id="sign" type="text">
+                    <a class="footer_link button button-green" href="">Sign up Now</a>
+                </form>
+            </div>
+        </div>
+        <p class="footer_copyright">Made With Love By Product All Right Reserved </p>
+    </footer>
+    
+    <script src="scripts/main.min.js" type="module"></script>
+</body>
+</html>

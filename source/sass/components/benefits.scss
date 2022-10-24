@@ -1,0 +1,135 @@
+.benefits {
+    margin-bottom: 80px;
+
+    @media (min-width: $desktop-width) {
+        margin-bottom: 115px;
+    }
+}
+
+.benefits_list {
+    list-style: none;
+}
+
+.benefits_item {
+    margin-bottom: 125px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    @media (min-width: $tablet-width) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @media (min-width: $desktop-width) {
+        margin-bottom: 150px;
+    }
+}
+
+.benefits_img {
+    display: block;
+    margin: 0 auto 45px;
+    
+    @media (min-width: $tablet-width) {
+        margin: 0;
+        object-fit: contain;
+    }
+
+    @media (min-width: $desktop-width) {
+        width: 540px;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .benefits_item:nth-child(odd) > .benefits_img {
+        order: 2;
+    }
+
+    .benefits_item:nth-child(even) > .benefits_box {
+        padding: 0 20px 0 80px;
+    }
+}
+
+.benefits_box {
+    padding-left: 10px;
+
+    @media (min-width: $tablet-width) {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 50%;
+        padding-right: 60px;
+        padding-left: 0;
+    }
+}
+
+.benefits_subtitle {
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+
+    &-s {
+        margin-bottom: 10px;
+        line-height: 26px;
+    }
+
+    @media (min-width: $tablet-width) {
+        margin-top: 20px;
+    }
+}
+
+.benefits_title {
+    margin-bottom: 16px;
+    text-align: left;
+
+    @media (min-width: $tablet-width) {
+        margin-bottom: 20px;
+    }
+}
+
+.benefits_text {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+
+    @media (min-width: $tablet-width) {
+        margin-bottom: 30px;
+    }
+}
+
+.benefits-offer_list {
+    list-style: none;
+}
+
+.benefits-offer_item {
+    position: relative;
+    padding-left: 60px;
+}
+
+.benefits-offer_item::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 35px;
+    border-radius: 13px;
+    background: no-repeat url("../img/tick.svg") center;
+    background-color:  $orange-color;
+}
+
+.benefits-offer_item:nth-child(2)::before {
+    background-color: $red-color;
+}
+
+.benefits-offer_item:nth-child(3)::before {
+    background-color: $blue-color;
+}
+
+

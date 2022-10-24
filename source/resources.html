@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Product_1</title>
+</head>
+<body>
+
+    <header class="header container">
+        <div class="header_wrap">
+            <a href="index.html">
+                <picture>
+                    <source media="(min-width: 768px)" width="178" height="36" srcset="img/logo_desktop.svg">
+                    <img src="img/logo_mobile.svg" width="170" height="36" alt="">
+                </picture>
+            </a>
+            <button class="button header_toggler " type="button" aria-label="Переключатель навигации">
+                <span class="header_toggler-icon"></span>
+                <span class="visually-hidden">Open menu</span>
+            </button>
+        </div>
+        <nav class="nav nav_overlay">
+            <ul class="nav_list">
+                <li class="nav_item">
+                <a class="nav_link" href="index.html">Product</a>
+                </li>
+                <li class="nav_item">
+                <a class="nav_link" href="customers.html">Customers</a>
+                </li>
+                <li class="nav_item">
+                <a class="nav_link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav_item">
+                <a class="nav_link nav_link-active" aria-current="page"  href="#">Resources</a>
+                </li>
+            </ul>
+            <div class="nav_submit">
+                <form class="nav_form">
+                    <button class="button button-light" type="submit">Sign In</button>
+                    <button class="button button-green" type="submit">Sign Up</button>
+                </form>
+                <button class="button button-theme" type="button">
+                    <span class="visually-hidden">change theme</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="promo container">
+            <div class="promo_wrap">
+                <h2 class="promo_title title">Great Business<br> made with Product.</h2>
+                <p class="promo_text">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
+                <form class="promo_form">
+                    <input class="promo_input" type="text" placeholder="Enter your email adress">
+                    <a class="promo_link button button-green" href="">Join Now</a>
+                </form>
+                <div class="promo_box">
+                    <picture>
+                        <source type="image/webp" srcset="./img/promo-avatar.webp 1x, ./img/promo-avatar@2x.webp 2x">
+                        <img class="promo_icon" src="./img/promo-avatar.png" srcset="./img/promo-avatar@2x.png" alt="">
+                    </picture>
+                    <span class="promo_count">Join over <span class="promo_count promo_count-green">4,000</span>+ other</span>
+                </div>
+            </div>
+            
+            <picture>
+                <source type="image/webp" media="(min-width: 768px)" srcset="./img/promo-desktop.webp 1x, ./img/promo-desktop@2x.webp 2x">
+                <source type="image/webp" srcset="./img/promo-mobile.webp 1x, ./img/promo-mobile@2x.webp 2x">
+                <source media="(min-width: 768px)" srcset="./img/promo-desktop.png 1x, ./img/promo-desktop@2x.png 2x">
+                <img class="promo_img" src="./img/promo-mobile.png" srcset="./img/promo-mobile@2x.png" alt="">
+            </picture>
+        </section>
+
+        <section class="stories container">
+            <h2 class="stories_title title">Latest Stories</h2>
+            <p class="stories_text">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+            <ul class="stories_list news_list">
+                <li class="stories_item card-news card-news-border">
+                    <picture>
+                        <source type="image/webp" srcset="./img/news-1.webp 1x, ./img/news-1@2x.webp 2x">
+                        <img class="card-news_img" src="./img/news-1.jpg" srcset="./img/news-1@2x.jpg" alt="">
+                    </picture>
+                    <div class="card-news_body">
+                        <div class="card-news_date">By <strong>Wahid Ari</strong>  | 03 March 2019</div>
+                        <a class="card-news_link" href="#">Increasing Prosperity With Positive Thinking</a>
+                    </div>
+                </li>
+                <li class="stories_item card-news card-news-border">
+                    <picture>
+                        <source type="image/webp" srcset="./img/news-4.webp 1x, ./img/news-4@2x.webp 2x">
+                        <img class="card-news_img" src="./img/news-4.png" srcset="./img/news-4@2x.png" alt="">
+                    </picture>
+                    <div class="card-news_body">
+                        <div class="card-news_date">By <strong>Wahid Ari</strong> | 03 March 2019</div>
+                        <a class="card-news_link news_link-green" href="#">Motivation Is The First Step To Success</a>
+                    </div>
+                </li>
+                <li class="stories_item card-news card-news-border">
+                    <picture>
+                        <source type="image/webp" srcset="./img/news-5.webp 1x, ./img/news-5@2x.webp 2x">
+                        <img class="card-news_img" src="./img/news-5.png" srcset="./img/news-5@2x.png" alt="">
+                    </picture>
+                    <div class="card-news_body">
+                        <div class="card-news_date">By <strong>Wahid Ari</strong> | 03 March 2019</div>
+                        <a class="card-news_link" href="#">Success Steps For Your Personal Or Business</a>
+                    </div>
+                </li>
+                <li class="stories_item card-news card-news-border">
+                    <picture>
+                        <source type="image/webp" srcset="./img/news-6.webp 1x, ./img/news-6@2x.webp 2x">
+                        <img class="card-news_img" src="./img/news-6.png" srcset="./img/news-6@2x.png" alt="">
+                    </picture>
+                    <div class="card-news_body">
+                        <div class="card-news_date">By <strong>Wahid Ari</strong> | 03 March 2019</div>
+                        <a class="card-news_link" href="#">Increasing Prosperity With Positive Thinking</a>
+                    </div>
+                </li>
+                <li class="stories_item card-news card-news-border">
+                    <picture>
+                        <source type="image/webp" srcset="./img/news-7.webp 1x, ./img/news-7@2x.webp 2x">
+                        <img class="card-news_img" src="./img/news-7.png" srcset="./img/news-7@2x.png" alt="">
+                    </picture>
+                    <div class="card-news_body">
+                        <div class="card-news_date">By <strong>Wahid Ari</strong> | 03 March 2019</div>
+                        <a class="card-news_link" href="#">Motivation Is The First Step To Success</a>
+                    </div>
+                </li>
+                <li class="stories_item card-news card-news-border">
+                    <picture>
+                        <source type="image/webp" srcset="./img/news-8.webp 1x, ./img/news-8@2x.webp 2x">
+                        <img class="card-news_img" src="./img/news-8.png" srcset="./img/news-8@2x.png" alt="">
+                    </picture>
+                    <div class="card-news_body">
+                        <div class="card-news_date">By <strong>Wahid Ari</strong> | 03 March 2019</div>
+                        <a class="card-news_link" href="#">Success Steps For Your Personal Or Business</a>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="stories_box">
+                <a class="stories_link" href="">More Stories</a>
+            </div>
+        </section>
+
+        <section class="contacts container">
+            <h2 class="contacts_title title">Contact Us</h2>
+            <p class="contacts_text">Need more detailed information?<br>  Get in touch with us.</p>
+
+            <ul class="contacts_social social_list">
+                <li class="social_item">
+                    <a class="social_link social_link-m" href="">
+                        <span class="visually-hidden">Instagram</span>
+                        <svg class="social_icon" aria-hidden="true" viewBox="0 0 24 25" width="24" height="25">
+                            <use xlink:href="./img/sprite.svg#instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social_item">
+                    <a class="social_link social_link-m" href="">
+                        <span class="visually-hidden">Facebook</span>
+                        <svg class="social_icon" aria-hidden="true" viewBox="0 0 13 22" width="13" height="22">
+                            <use xlink:href="./img/sprite.svg#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social_item">
+                    <a class="social_link social_link-m" href="">
+                        <span class="visually-hidden">Twitter</span>
+                        <svg class="social_icon" aria-hidden="true" viewBox="0 0 24 20" width="24" height="20">
+                            <use xlink:href="./img/sprite.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <iframe class="contacts_map map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36853.41064777548!2d21.056740919499877!3d52.29237656187362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecea7638826d9%3A0xc0aac43690450a2a!2sBr%C3%B3dnowski%20Cementery!5e0!3m2!1sru!2spl!4v1664313064064!5m2!1sru!2spl" width="362" height="330" style="border: 0;" allowfullscreen="" loading="lazy" title="">
+            </iframe>
+
+            <div class="message">
+                <form class="message_form">
+                    <fieldset class="message_fieldset">
+                        <h2 class="message_title title">Send a message</h2>
+                        <p class="message_group">
+                            <label class="message_label" for="name"></label>
+                            <input class="message_field field" type="text" id="name" name="name" placeholder="Your Name" required>
+                        </p>
+                        <p class="message_group">
+                            <label class="message_label" for="email"></label>
+                            <input class="message_field field" type="email" id="email" name="email" placeholder="Your Email" required>
+                        </p>
+                        <p class="message_group">
+                            <textarea class="message_comment field field-text" name="comment" id="comment-field" placeholder="Your Message"></textarea>
+                        </p>
+                        <div class="message_send">
+                            <button class="message_submit button button-green button-green-send" type="submit">Send</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            
+        </section>
+
+    </main>
+
+    <footer class="footer container">
+        <div class="footer_wrapper">
+            <div class="footer_wrap">
+                <a class="footer_logo" href="index.html">
+                    <img src="img/logo-footer.svg" width="163" height="29" alt="">
+                </a>
+                <ul class="footer_social social_list">
+                    <li class="social_item">
+                        <a class="social_link" href="">
+                            <span class="visually-hidden">Instagram</span>
+                            <svg class="social_icon" aria-hidden="true" viewBox="0 0 24 25" width="24" height="25">
+                                <use xlink:href="./img/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social_item">
+                        <a class="social_link" href="">
+                            <span class="visually-hidden">Facebook</span>
+                            <svg class="social_icon" aria-hidden="true" viewBox="0 0 13 22" width="13" height="22">
+                                <use xlink:href="./img/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social_item">
+                        <a class="social_link" href="">
+                            <span class="visually-hidden">Twitter</span>
+                            <svg class="social_icon" aria-hidden="true" viewBox="0 0 24 20" width="24" height="20">
+                                <use xlink:href="./img/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_box">
+                <p class="footer_subtitle">Resource</p>
+                <ul class="footer_list">
+                    <li class="footer_item">About Us</li>
+                    <li class="footer_item">Blog</li>
+                    <li class="footer_item">Contact</li>
+                    <li class="footer_item">FAQ</li>
+                </ul>
+            </div>
+            <div class="footer_box">
+                <p class="footer_subtitle">Legal Stuff</p>
+                <ul class="footer_list">
+                    <li class="footer_item">Disclaimer</li>
+                    <li class="footer_item">Financing</li>
+                    <li class="footer_item">Privacy Policy</li>
+                    <li class="footer_item">Terms of Service</li>
+                </ul>
+            </div>
+            <div class="footer_box">
+                <p class="footer_subtitle">knowing you're always on the best energy deal.</p>
+                <form class="footer_form">
+                    <label class="visually-hidden" for="sign"></label>
+                    <input class="footer_input" id="sign" type="text">
+                    <a class="footer_link button button-green" href="">Sign up Now</a>
+                </form>
+            </div>
+        </div>
+        <p class="footer_copyright">Made With Love By Product All Right Reserved </p>
+    </footer>
+
+    <script src="scripts/main.min.js" type="module"></script>
+    
+</body>
+</html>
