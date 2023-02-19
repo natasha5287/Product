@@ -2,90 +2,105 @@
 body.dark-theme {
     color: $white-color;
     background-color: #1F2E35;
-}
 
-body.dark-theme a {
-    color: $white-color;
-}
+    .logo_dakr-theme {
+        display: block;
+    }
 
-body.dark-theme .nav {
-    background-color: #1F2E35;
-}
+    .logo {
+        display: none;
+    }
 
-body.dark-theme .button-light {
-    color: $white-color;
-}
+    .header_toggler-icon::before {
+        background-color: $white-color;
+        border-radius: 5px;
+        box-shadow: 0 8px 0 0 $white-color, 0 16px 0 0 $white-color;
+    }
 
-body.dark-theme .intro_video {
-    color: $primary-color;
-}
+    a {
+        color: $white-color;
+    }
 
-body.dark-theme .staff_text {
-    color: $white-color;
-}
+    .nav {
+        background-color: #1F2E35;
+    }
 
-body.dark-theme .staff_phrase {
-    color: #2F281E;
-}
+    .button-light {
+        color: $white-color;
+    }
 
-body.dark-theme .card-news_item {
-    color: $text-color;
-}
-
-body.dark-theme .card-news_body {
-    color: $text-color;
-}
-
-body.dark-theme .card-news_link {
-    color: $text-color;
-    &-green {
+    .intro_video {
         color: $primary-color;
     }
-}
 
-body.dark-theme .card-price:not(.card-price-green) {
-    color: $text-color;
-}
+    .staff_text {
+        color: $white-color;
+    }
 
-body.dark-theme .join_link {
-    color: $text-color;
-}
+    .staff_phrase {
+        color: #2F281E;
+    }
 
-body.dark-theme .enterprise,
-body.dark-theme .offer {
-    background: $text-color;
-}
+    .card-news_item {
+        color: $text-color;
+    }
 
-body.dark-theme .advantage {
-    background-color: $text-color;
-}
+    .card-news_body {
+        color: $text-color;
+    }
 
-body.dark-theme .promo_input {
-    background-color: #1F2E35;
-}
+    .card-news_link {
+        color: $text-color;
 
-body.dark-theme .promo_input::-webkit-input-placeholder {
-    color: $white-color;
-}
+        &-green {
+            color: $primary-color;
+        }
+    }
 
-body.dark-theme .promo_input::-moz-placeholder {
-    color: $white-color;
-}
+    .card-price:not(.card-price-green) {
+        color: $text-color;
+    }
 
-body.dark-theme .promo_input:-ms-input-placeholder {
-    color: $white-color;
-}
+    .join_link {
+        color: $text-color;
+    }
 
-body.dark-theme .contacts_text {
-    color: $white-color;
-}
+    .enterprise,
+    .offer {
+        background: $text-color;
+    }
 
-body.dark-theme .message_fieldset {
-
-    @media (min-width: $tablet-width) {
+    .advantage {
         background-color: $text-color;
-        border-color: #464646;
+    }
+
+    .promo_input {
+        background-color: #1F2E35;
+    }
+
+    .promo_input::-webkit-input-placeholder {
+        color: $white-color;
+    }
+
+    .promo_input::-moz-placeholder {
+        color: $white-color;
+    }
+
+    .promo_input:-ms-input-placeholder {
+        color: $white-color;
+    }
+
+    .contacts_text {
+        color: $white-color;
+    }
+
+    .message_fieldset {
+
+        @media (min-width: $tablet-width) {
+            background-color: $text-color;
+            border-color: #464646;
+        }
+
     }
 
 }
-

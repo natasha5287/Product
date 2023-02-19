@@ -6,7 +6,7 @@
         right: 0;
         padding: 0 20px;
     }
-   
+
     @media (min-width: $desktop-width) {
         display: flex;
         flex-wrap: wrap;
@@ -18,9 +18,11 @@
 
 .nav_list {
     list-style: none;
+    margin-bottom: 30px;
 
     @media (min-width: $desktop-width) {
         display: flex;
+        margin-bottom: 0;
     }
 }
 
@@ -58,7 +60,7 @@
 .nav_form {
     display: flex;
     flex-direction: column;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
 
     @media (min-width: $desktop-width) {
         flex-direction: row;

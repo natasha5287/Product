@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/icon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Product_1</title>
 </head>
+
 <body>
 
     <header class="header container">
         <div class="header_wrap">
             <a href="index.html">
                 <picture>
-                    <source media="(min-width: 768px)" width="178" height="36" srcset="img/logo_desktop.svg">
-                    <img src="img/logo_mobile.svg" width="170" height="36" alt="">
+                    <source media="(min-width: 768px)" srcset="img/logo-white_desktop.svg">
+                    <img class="logo_dakr-theme" src="img/logo-white_mobile.svg" width="170" height="36" alt="">
+                </picture>
+                <picture>
+                    <source media="(min-width: 768px)" srcset="img/logo_desktop.svg">
+                    <img class="logo" src="img/logo_mobile.svg" width="170" height="36" alt="">
                 </picture>
             </a>
             <button class="button header_toggler " type="button" aria-label="Переключатель навигации">
@@ -26,16 +33,16 @@
         <nav class="nav nav_overlay">
             <ul class="nav_list">
                 <li class="nav_item">
-                <a class="nav_link" href="index.html">Product</a>
+                    <a class="nav_link" href="index.html">Product</a>
                 </li>
                 <li class="nav_item">
-                <a class="nav_link nav_link-active" aria-current="page"  href="#">Customers</a>
+                    <a class="nav_link nav_link-active" aria-current="page" href="#">Customers</a>
                 </li>
                 <li class="nav_item">
-                <a class="nav_link" href="pricing.html">Pricing</a>
+                    <a class="nav_link" href="pricing.html">Pricing</a>
                 </li>
                 <li class="nav_item">
-                <a class="nav_link" href="resources.html">Resources</a>
+                    <a class="nav_link" href="resources.html">Resources</a>
                 </li>
             </ul>
             <div class="nav_submit">
@@ -62,7 +69,8 @@
                     <img src="./img/google.svg" width="146" height="50" alt="logotype Google">
                 </li>
                 <li class="companies_item">
-                    <img class="companies_img" src="./img/microsoft.svg" width="164" height="34" alt="logotype Microsoft">
+                    <img class="companies_img" src="./img/microsoft.svg" width="164" height="34"
+                        alt="logotype Microsoft">
                 </li>
                 <li class="companies_item">
                     <img src="./img/fedex.svg" width="140" height="42" alt="logotype FedEx">
@@ -81,9 +89,9 @@
                             </svg>
                         </div>
                         <h3 class="advantage_subtitle">Special Business</h3>
-                        <p class="advantage_text">Product helps you see how many 
-                            more days you need to work 
-                            to reach your financial goal 
+                        <p class="advantage_text">Product helps you see how many
+                            more days you need to work
+                            to reach your financial goal
                             for the month and year.</p>
                     </li>
                     <li class="advantage_item">
@@ -93,9 +101,9 @@
                             </svg>
                         </div>
                         <h3 class="advantage_subtitle">Instant Result</h3>
-                        <p class="advantage_text">Product helps you see how many 
-                            more days you need to work 
-                            to reach your financial goal 
+                        <p class="advantage_text">Product helps you see how many
+                            more days you need to work
+                            to reach your financial goal
                             for the month and year.</p>
                     </li>
                     <li class="advantage_item">
@@ -105,9 +113,9 @@
                             </svg>
                         </div>
                         <h3 class="advantage_subtitle">Fastest way to organize</h3>
-                        <p class="advantage_text">Product helps you see how many 
-                            more days you need to work 
-                            to reach your financial goal 
+                        <p class="advantage_text">Product helps you see how many
+                            more days you need to work
+                            to reach your financial goal
                             for the month and year.</p>
                     </li>
                 </ul>
@@ -119,41 +127,54 @@
             <ol class="work_list">
                 <li class="work_item">
                     <picture>
-                        <source type="image/webp" media="(min-width: 1200px)" srcset="./img/work-desktop-1.webp 1x, ./img/work-desktop-1@2x.webp 2x">
+                        <source type="image/webp" media="(min-width: 1200px)"
+                            srcset="./img/work-desktop-1.webp 1x, ./img/work-desktop-1@2x.webp 2x">
                         <source type="image/webp" srcset="./img/work-1.webp 1x, ./img/work-1@2x.webp 2x">
-                        <source media="(min-width: 1200px)" srcset="./img/work-desktop-1.png 1x, ./img/work-desktop-1@2x.png 2x">
-                        <img  class="work_img" src="./img/work-1.png" srcset="./img/work-1@2x.png" width="350" height="195" alt="">
+                        <source media="(min-width: 1200px)"
+                            srcset="./img/work-desktop-1.png 1x, ./img/work-desktop-1@2x.png 2x">
+                        <img class="work_img" src="./img/work-1.png" srcset="./img/work-1@2x.png" width="350"
+                            height="195" alt="">
                     </picture>
                     <div class="work_box">
                         <h4 class="work_step">Step 1</h4>
                         <h3 class="work_subtitle title">Apply for a product</h3>
-                        <p class="work_text">Completing our easy step-by-step application form gives you access to multiple business with multiple products. We analyse your business through our proprietary credit analysis technology </p>
+                        <p class="work_text">Completing our easy step-by-step application form gives you access to
+                            multiple business with multiple products. We analyse your business through our proprietary
+                            credit analysis technology </p>
                     </div>
                 </li>
                 <li class="work_item">
                     <picture>
-                        <source type="image/webp" media="(min-width: 1200px)" srcset="./img/work-desktop-2.webp 1x, ./img/work-desktop-2@2x.webp 2x">
+                        <source type="image/webp" media="(min-width: 1200px)"
+                            srcset="./img/work-desktop-2.webp 1x, ./img/work-desktop-2@2x.webp 2x">
                         <source type="image/webp" srcset="./img/work-2.webp 1x, ./img/work-2@2x.webp 2x">
-                        <source media="(min-width: 1200px)" srcset="./img/work-desktop-2.png 1x, ./img/work-desktop-2@2x.png 2x">
-                        <img  class="work_img" src="./img/work-2.png" srcset="./img/work-2@2x.png" width="350" height="195" alt="">
+                        <source media="(min-width: 1200px)"
+                            srcset="./img/work-desktop-2.png 1x, ./img/work-desktop-2@2x.png 2x">
+                        <img class="work_img" src="./img/work-2.png" srcset="./img/work-2@2x.png" width="350"
+                            height="195" alt="">
                     </picture>
                     <div class="work_box">
                         <h4 class="work_step">Step 2</h4>
                         <h3 class="work_subtitle title">Pay fully refundable</h3>
-                        <p class="work_text">Product will contactting you instantly to receive payment of the Application Fee. if no offer of product is available, your fee will be fully refunded.</p>
+                        <p class="work_text">Product will contactting you instantly to receive payment of the
+                            Application Fee. if no offer of product is available, your fee will be fully refunded.</p>
                     </div>
                 </li>
                 <li class="work_item">
                     <picture>
-                        <source type="image/webp" media="(min-width: 1200px)" srcset="./img/work-desktop-3.webp 1x, ./img/work-desktop-3@2x.webp 2x">
+                        <source type="image/webp" media="(min-width: 1200px)"
+                            srcset="./img/work-desktop-3.webp 1x, ./img/work-desktop-3@2x.webp 2x">
                         <source type="image/webp" srcset="./img/work-3.webp 1x, ./img/work-3@2x.webp 2x">
-                        <source media="(min-width: 1200px)" srcset="./img/work-desktop-3.png 1x, ./img/work-desktop-3@2x.png 2x">
-                        <img  class="work_img" src="./img/work-3.png" srcset="./img/work-3@2x.png" width="350" height="195" alt="">
+                        <source media="(min-width: 1200px)"
+                            srcset="./img/work-desktop-3.png 1x, ./img/work-desktop-3@2x.png 2x">
+                        <img class="work_img" src="./img/work-3.png" srcset="./img/work-3@2x.png" width="350"
+                            height="195" alt="">
                     </picture>
                     <div class="work_box">
                         <h4 class="work_step">Step 3</h4>
                         <h3 class="work_subtitle title">Completion</h3>
-                        <p class="work_text">Product will continue to liase between borrower and manager to procees and complete a quick and efficient settlement</p>
+                        <p class="work_text">Product will continue to liase between borrower and manager to procees and
+                            complete a quick and efficient settlement</p>
                     </div>
                 </li>
             </ol>
@@ -203,7 +224,9 @@
         <div class="footer_wrapper">
             <div class="footer_wrap">
                 <a class="footer_logo" href="index.html">
-                    <img src="img/logo-footer.svg" width="163" height="29" alt="">
+                    <img class="logo_dakr-theme" src="img/logo-white_footer.svg" width="163" height="29" loading="lazy"
+                        alt="">
+                    <img class="logo" src="img/logo_footer.svg" width="163" height="29" loading="lazy" alt="">
                 </a>
                 <ul class="footer_social social_list">
                     <li class="social_item">
@@ -261,7 +284,8 @@
         </div>
         <p class="footer_copyright">Made With Love By Product All Right Reserved </p>
     </footer>
-    
+
     <script src="scripts/main.min.js" type="module"></script>
 </body>
+
 </html>

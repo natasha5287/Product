@@ -19,7 +19,7 @@
     }
 }
 
-.button + .button {
+.button+.button {
     margin-top: 10px;
 
     @media (min-width: $desktop-width) {
@@ -52,7 +52,7 @@
     width: 32px;
     height: 32px;
     background: no-repeat url(../img/button_theme.svg) center;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 
     @media (min-width: $desktop-width) {
         margin-bottom: 0;
